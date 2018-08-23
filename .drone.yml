@@ -3,5 +3,5 @@ pipeline:
     image: microsoft/dotnet:latest
     commands: dotnet build ./PrimeService/PrimeService.csproj
   test:
-    image: microsoft/dotnet:1.1-sdk
+    image: microsoft/dotnet:1.1-runtime
     commands: dotnet test ./PrimeService.Tests/PrimeService.Tests.csproj
