@@ -20,5 +20,22 @@ namespace Prime.UnitTests.Services
 
             Assert.IsFalse(result, $"1 should not be prime");
         }
+
+
+        [Test]
+        public void IsTom()
+        {
+            var actual = "Jeff";
+
+            Assert.AreEqual("Tom", actual, "Should be Tom");
+        }
+
+        [Test]
+        public void IsJeff()
+        {
+            var actual = "Jeff";
+
+            Assert.AreEqual("Jeff", actual, "Should be Jeff");
+        }
     }
 }
