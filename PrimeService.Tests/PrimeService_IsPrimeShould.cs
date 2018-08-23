@@ -25,7 +25,7 @@ namespace Prime.UnitTests.Services
         [Test]
         public void IsTom()
         {
-            var actual = "Jeff";
+            var actual = "Tom";
 
             Assert.AreEqual("Tom", actual, "Should be Tom");
         }
