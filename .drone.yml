@@ -1,7 +1,7 @@
 pipeline:
   build:
     image: microsoft/dotnet:latest
-    commands: dotnet build .\PrimeService\PrimeService.csproj
+    commands: dotnet build ./PrimeService/PrimeService.csproj
   test:
     image: microsoft/dotnet:latest
-    commands: dotnet test .\PrimeService.Tests\PrimeService.Tests.csproj
+    commands: dotnet test ./PrimeService.Tests/PrimeService.Tests.csproj
