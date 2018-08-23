@@ -1,0 +1,7 @@
+pipeline:
+  build:
+    image: microsoft/dotnet:latest
+    commands: dotnet build
+  test:
+    image: microsoft/dotnet:latest
+    commands: dotnet test
